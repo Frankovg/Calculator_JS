@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <script
+      type="text/javascript"
+      src="./js/calculator.js"
+      charset="UTF-8"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div><img class="logo" src="./casio_logo.png" alt="" /></div>
+    <table class="calculator">
+      <tr>
+        <!-- <td colspan="4"><span id="screen"></span></td> -->
+        <td colspan="4">
+          <input type="text" id="screen" readonly placeholder="0" />
+        </td>
+      </tr>
+      <tr>
+        <td><button class="grey" onclick="addToScreen('7')">7</button></td>
+        <td><button class="grey" onclick="addToScreen('8')">8</button></td>
+        <td><button class="grey" onclick="addToScreen('9')">9</button></td>
+        <td><button class="blue" onclick="addToScreen('*')">x</button></td>
+      </tr>
+      <tr>
+        <td><button class="grey" onclick="addToScreen('4')">4</button></td>
+        <td><button class="grey" onclick="addToScreen('5')">5</button></td>
+        <td><button class="grey" onclick="addToScreen('6')">6</button></td>
+        <td><button class="blue" onclick="addToScreen('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="grey" onclick="addToScreen('1')">1</button></td>
+        <td><button class="grey" onclick="addToScreen('2')">2</button></td>
+        <td><button class="grey" onclick="addToScreen('3')">3</button></td>
+        <td><button class="blue" onclick="addToScreen('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button class="orange" onclick="clearScreen()">C</button></td>
+        <td><button class="grey" onclick="addToScreen('0')">0</button></td>
+        <td><button class="blue" onclick="calculate()">=</button></td>
+        <td><button class="blue" onclick="addToScreen('/')">÷</button></td>
+      </tr>
+    </table>
+    <p>Franco Amoroso, 2022</p>
+    <p>JavaScript, HTML5, CSS3</p>
+  </body>
+</html>
