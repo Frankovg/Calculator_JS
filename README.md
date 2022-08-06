@@ -1,6 +1,6 @@
 # Basic Calculator
 > A calculator made from zero with javascript. It only does simple mathematical equations as adds, subtracts, multiplies and divides.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://frankovg.github.io/Calculator_JS/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -13,21 +13,17 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Functions are resolved with Vanilla Javascript and it does not contain eval() function.
+- The purpose of this project is training Javascript and how to connect the functionality with the user interface.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- JavaScript ES6
+- HTML5
+- CSS3
 
 
 ## Features
