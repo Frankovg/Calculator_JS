@@ -1,5 +1,5 @@
 # Basic Calculator
-> A calculator made from zero with javascript. It only does simple mathematical equations as adds, subtracts, multiplies and divides.
+> A calculator made from zero with Javascript. It only does simple mathematical equations as adds, subtracts, multiplies and divides.
 > Live demo [_here_](https://frankovg.github.io/Calculator_JS/).
 
 ## Table of Contents
